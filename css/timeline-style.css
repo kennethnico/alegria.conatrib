@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+HU:wght@100..400&display=swap');
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -57,8 +58,8 @@
   letter-spacing: 3px;
   width: 100%;
   position: absolute;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
   font-family: "Pathway Gothic One", sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   top: 70%;
@@ -140,14 +141,15 @@
 .timeline-header__title {
   color: #fff;
   font-size: 46px;
-  font-family: Cardo;
-  font-weight: normal;
+  /*font-family: Cardo;*/
+  font-family: "Lato", serif;
+  font-weight: 700;
   margin: 0;
 }
 .timeline-header__subtitle {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
   font-family: "Pathway Gothic One", sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
   font-weight: normal;

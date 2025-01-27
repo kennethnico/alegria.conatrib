@@ -665,8 +665,8 @@ footer .location h4 {
 footer .location ul li {
 	font-size: 13px;
 	color: #fff;
-	display: inline-block;
-	line-height: 24px;
+	display: block;
+	line-height: 18px;
 	letter-spacing: 0.5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -675,7 +675,6 @@ footer .location ul li {
 footer .location ul li:first-child {
 	margin-right: 15px;
 	padding-right: 15px;
-	border-right: 1px solid rgba(250, 250, 250, 0.1);
 }
 
 footer .contact-info h4 {
@@ -692,7 +691,7 @@ footer .contact-info ul li {
 	font-size: 13px;
 	color: #fff;
 	display: inline-block;
-	line-height: 24px;
+	line-height: 20px;
 	letter-spacing: 0.5px;
 	padding-top: 5px;
 	padding-bottom: 5px;
